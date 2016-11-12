@@ -12,8 +12,13 @@
 		D08968BA1DD0067D00DDFB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08968B81DD0067D00DDFB01 /* Main.storyboard */; };
 		D08968BC1DD0067D00DDFB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08968BB1DD0067D00DDFB01 /* Assets.xcassets */; };
 		D08968BF1DD0067D00DDFB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08968BD1DD0067D00DDFB01 /* LaunchScreen.storyboard */; };
-		D08968C71DD007B100DDFB01 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = D08968C61DD007B100DDFB01 /* GoogleService-Info (1).plist */; };
 		D08968C91DD007C800DDFB01 /* PodFIle in Resources */ = {isa = PBXBuildFile; fileRef = D08968C81DD007C800DDFB01 /* PodFIle */; };
+		D08968CE1DD14F1A00DDFB01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D08968CD1DD14F1A00DDFB01 /* GoogleService-Info.plist */; };
+		D08968D11DD1532400DDFB01 /* SexyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08968D01DD1532400DDFB01 /* SexyView.swift */; };
+		D08968D31DD153BE00DDFB01 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08968D21DD153BE00DDFB01 /* Constants.swift */; };
+		D08968D51DD1583B00DDFB01 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08968D41DD1583B00DDFB01 /* RoundButton.swift */; };
+		D08968D71DD15AFC00DDFB01 /* SexyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08968D61DD15AFC00DDFB01 /* SexyField.swift */; };
+		D08968D91DD15FD500DDFB01 /* SexyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08968D81DD15FD500DDFB01 /* SexyButton.swift */; };
 		FD3E316B0B9F76C144F607E5 /* Pods_SocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D91DAF4FE863915FDBF478 /* Pods_SocialApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +33,14 @@
 		D08968BB1DD0067D00DDFB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D08968BE1DD0067D00DDFB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D08968C01DD0067D00DDFB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D08968C61DD007B100DDFB01 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		D08968C81DD007C800DDFB01 /* PodFIle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PodFIle; path = ../PodFIle; sourceTree = "<group>"; };
+		D08968CD1DD14F1A00DDFB01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D08968D01DD1532400DDFB01 /* SexyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexyView.swift; sourceTree = "<group>"; };
+		D08968D21DD153BE00DDFB01 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D08968D41DD1583B00DDFB01 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		D08968D61DD15AFC00DDFB01 /* SexyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexyField.swift; sourceTree = "<group>"; };
+		D08968D81DD15FD500DDFB01 /* SexyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexyButton.swift; sourceTree = "<group>"; };
+		D08968DA1DD6983800DDFB01 /* SocialApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +93,8 @@
 		D08968B31DD0067D00DDFB01 /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				D08968DA1DD6983800DDFB01 /* SocialApp.entitlements */,
+				D08968CF1DD152ED00DDFB01 /* Utilities */,
 				D08968CC1DD019E700DDFB01 /* Model */,
 				D08968CB1DD019E300DDFB01 /* View */,
 				D08968CA1DD019DF00DDFB01 /* Controller */,
@@ -90,7 +103,7 @@
 				D08968BB1DD0067D00DDFB01 /* Assets.xcassets */,
 				D08968BD1DD0067D00DDFB01 /* LaunchScreen.storyboard */,
 				D08968C01DD0067D00DDFB01 /* Info.plist */,
-				D08968C61DD007B100DDFB01 /* GoogleService-Info (1).plist */,
+				D08968CD1DD14F1A00DDFB01 /* GoogleService-Info.plist */,
 				D08968C81DD007C800DDFB01 /* PodFIle */,
 			);
 			path = SocialApp;
@@ -99,6 +112,7 @@
 		D08968CA1DD019DF00DDFB01 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D08968B61DD0067D00DDFB01 /* SignInVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -106,7 +120,10 @@
 		D08968CB1DD019E300DDFB01 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D08968B61DD0067D00DDFB01 /* SignInVC.swift */,
+				D08968D01DD1532400DDFB01 /* SexyView.swift */,
+				D08968D41DD1583B00DDFB01 /* RoundButton.swift */,
+				D08968D61DD15AFC00DDFB01 /* SexyField.swift */,
+				D08968D81DD15FD500DDFB01 /* SexyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -116,6 +133,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		D08968CF1DD152ED00DDFB01 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D08968D21DD153BE00DDFB01 /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +178,13 @@
 				TargetAttributes = {
 					D08968B01DD0067D00DDFB01 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6225SLKFTH;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -183,7 +214,7 @@
 				D08968BF1DD0067D00DDFB01 /* LaunchScreen.storyboard in Resources */,
 				D08968BC1DD0067D00DDFB01 /* Assets.xcassets in Resources */,
 				D08968BA1DD0067D00DDFB01 /* Main.storyboard in Resources */,
-				D08968C71DD007B100DDFB01 /* GoogleService-Info (1).plist in Resources */,
+				D08968CE1DD14F1A00DDFB01 /* GoogleService-Info.plist in Resources */,
 				D08968C91DD007C800DDFB01 /* PodFIle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08968B71DD0067D00DDFB01 /* SignInVC.swift in Sources */,
+				D08968D51DD1583B00DDFB01 /* RoundButton.swift in Sources */,
 				D08968B51DD0067D00DDFB01 /* AppDelegate.swift in Sources */,
+				D08968D71DD15AFC00DDFB01 /* SexyField.swift in Sources */,
+				D08968D11DD1532400DDFB01 /* SexyView.swift in Sources */,
+				D08968D31DD153BE00DDFB01 /* Constants.swift in Sources */,
+				D08968D91DD15FD500DDFB01 /* SexyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +404,7 @@
 			baseConfigurationReference = 2D3A34CB8AC400359C3C1F62 /* Pods-SocialApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6225SLKFTH;
 				INFOPLIST_FILE = SocialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.galt.SocialApp;
@@ -381,6 +418,7 @@
 			baseConfigurationReference = 4451A060B78218B757E66C8A /* Pods-SocialApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6225SLKFTH;
 				INFOPLIST_FILE = SocialApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.galt.SocialApp;

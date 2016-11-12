@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>49409773607-gtl4c3hhhhmsdjggvi3csa6imh3vtn0t.apps.googleusercontent.com</string>
+	<string>54574594578-1np9t1d8pouvua0g915ke0klp0moikui.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.49409773607-gtl4c3hhhhmsdjggvi3csa6imh3vtn0t</string>
+	<string>com.googleusercontent.apps.54574594578-1np9t1d8pouvua0g915ke0klp0moikui</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDgZZ1_RyHK9AAZ7ynHosrE_xW0ob6kIJ0</string>
+	<string>AIzaSyDRvnyLXjWTBa2qNErVaktICn0HYQkQsVQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>49409773607</string>
+	<string>54574594578</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.galt.SocialApp</string>
 	<key>PROJECT_ID</key>
-	<string>socialapp-22a41</string>
+	<string>socialapp1-f09b0</string>
 	<key>STORAGE_BUCKET</key>
-	<string>socialapp-22a41.appspot.com</string>
+	<string>socialapp1-f09b0.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:49409773607:ios:d68a043aa65b71e2</string>
+	<string>1:54574594578:ios:d68a043aa65b71e2</string>
 	<key>DATABASE_URL</key>
-	<string>https://socialapp-22a41.firebaseio.com</string>
+	<string>https://socialapp1-f09b0.firebaseio.com</string>
 </dict>
 </plist>
